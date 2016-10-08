@@ -1,0 +1,9 @@
+===================
+QuantumDroid Engine
+===================
+
+- Contains most of the feature implemented in ROM.
+
+==============================================
+Work in progress not yet implemented to source.
+==============================================
