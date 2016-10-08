@@ -18,6 +18,9 @@
     <!-- QuantumDroid Engine -->
     <string name="qdengine_title">QuantumDroid Engine</string>
 
+    <!-- General app strings -->
+    <string name="reset">Reset</string>
+
     <!-- Qunatum Engine Category -->
     <string name="qdengine_settings_title">Quantum Engine Settings</string>
     <string name="quantum_engine_tab_title">Quantum Engine</string>

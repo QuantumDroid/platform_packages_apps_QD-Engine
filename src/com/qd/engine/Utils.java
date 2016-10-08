@@ -25,7 +25,7 @@ import android.content.res.Configuration;
 import android.telephony.TelephonyManager;
 import android.view.Surface;
 
-import org.qd.engine.input.ButtonSettings;
+import com.qd.engine.input.ButtonSettings;
 
 public class Utils {
 
