@@ -25,6 +25,24 @@
         android:layout="@layout/preference_buttons"
         android:title="@string/buttons_pref_title" />
 
+     <PreferenceCategory
+             android:key="lights"
+             android:title="@string/lights_label">
+ 
+         <!-- Battery light -->
+         <PreferenceScreen
+                 android:key="battery_light"
+                 android:title="@string/battery_light_title"
+                 android:fragment="com.qd.engine.notificationlight.BatteryLightSettings" />
+ 
+         <!-- Notification light -->
+         <PreferenceScreen
+                 android:key="notification_light"
+                 android:title="@string/notification_light_title"
+                 android:fragment="com.qd.engine.notificationlight.NotificationLightSettings" />
+ 
+</PreferenceCategory>
+
     <com.qd.engine.preference.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_title"
