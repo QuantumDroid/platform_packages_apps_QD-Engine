@@ -110,6 +110,7 @@ public class CustomDialogPreference<T extends DialogInterface> extends DialogPre
 
             @Override
             public void onClick(View view) {
+                CustomPreferenceDialogFragment.this.onClick(mDialog, mWhich);
                 if (getCustomizablePreference().onDismissDialog(mDialog, mWhich)) {
                     mDialog.dismiss();
                 }
@@ -181,4 +182,3 @@ public class CustomDialogPreference<T extends DialogInterface> extends DialogPre
         }
     }
 }
-

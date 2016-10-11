@@ -18,18 +18,5 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quantum_engine_tab_title">
-
-    <PreferenceScreen
-        android:key="button_settings"
-        android:fragment="com.qd.engine.input.ButtonSettings"
-        android:layout="@layout/preference_buttons"
-        android:title="@string/buttons_pref_title" />
-
-    <com.qd.engine.preference.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_gesture"
-        android:title="@string/double_tap_to_sleep_title"
-        android:summary="@string/double_tap_to_sleep_summary"
-        android:defaultValue="false" />
-
 </PreferenceScreen>
 
