@@ -17,6 +17,7 @@
 
     <!-- QuantumDroid Engine -->
     <string name="qdengine_title">QuantumDroid Engine</string>
+    <string name="button_settings_label">Button settings</string>
 
     <!-- General app strings -->
     <string name="reset">Reset</string>
