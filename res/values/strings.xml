@@ -18,8 +18,10 @@
     <!-- QuantumDroid Engine -->
     <string name="qdengine_title">QuantumDroid Engine</string>
     <string name="button_settings_label">Button settings</string>
+    <string name="statusbar_setting_label">Statusbar settings</string>
 
     <!-- General app strings -->
+    <string name="general_category">General</string>
     <string name="reset">Reset</string>
 
     <!-- Qunatum Engine Category -->
@@ -147,5 +149,10 @@
     <string name="led_notification_title">Light settings</string>
     <string name="led_notification_text">LED light enabled by settings</string>
     <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
 
 </resources>
