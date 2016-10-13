@@ -21,7 +21,7 @@
 
     <PreferenceCategory
 	    android:key="button_settings"
-	    android:title="@string/button_setting_label" >
+	    android:title="@string/button_settings_label" >
 
     <PreferenceScreen
         android:key="button_settings"
