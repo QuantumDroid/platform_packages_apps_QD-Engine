@@ -21,6 +21,7 @@
     <string name="statusbar_setting_label">Statusbar settings</string>
 
     <!-- General app strings -->
+    <string name="add">Add</string>
     <string name="advanced">Advanced</string>
     <string name="general_category">General</string>
     <string name="choose_app">Choose app</string>
