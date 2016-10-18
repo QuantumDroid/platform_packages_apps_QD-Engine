@@ -28,8 +28,8 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
-import com.android.internal.util.turbo.PowerMenuConstants;
-import static com.android.internal.util.turbo.PowerMenuConstants.*;
+import com.android.internal.util.qd.PowerMenuConstants;
+import static com.android.internal.util.qd.PowerMenuConstants.*;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
